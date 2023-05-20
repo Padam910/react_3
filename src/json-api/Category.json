@@ -1,0 +1,32 @@
+[
+  {
+    "id": "key-1",
+    "icon": "fa fa-home",
+    "title": "Lifestyle",
+    "desc": "46 hours course time"
+  },
+  {
+    "id": "key-2",
+    "icon": "fa fa-edit",
+    "title": "Marketting",
+    "desc": "46 hours course time"
+  },
+  {
+    "id": "key-3",
+    "icon": "fa fa-copy",
+    "title": "Art & Business",
+    "desc": "46 hours course time"
+  },
+  {
+    "id": "key-4",
+    "icon": "fa fa-gear",
+    "title": "Technology",
+    "desc": "46 hours course time"
+  },
+  {
+    "id": "key-5",
+    "icon": "fa fa-dashboard",
+    "title": "Programming",
+    "desc": "46 hours course time"
+  }
+]

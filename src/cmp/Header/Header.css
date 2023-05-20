@@ -1,0 +1,64 @@
+.nav-link, .navbar-brand {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 17px;
+  margin-left: 12px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white !important
+}
+
+#dropdown-container {
+  color: white
+}
+
+.arrow-up {
+  font-size: 40px !important;
+  position: absolute;
+  top: -27px;
+  left: 20px;
+  color: white
+}
+
+.dropdown-menu {
+  top: 70px !important;
+  width: 220px;
+  animation: flipInY;
+  animation-duration: 1s
+}
+
+.sticked {
+  background: white;
+  transition: 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+
+.sticked .nav-link,.sticked .navbar-brand {
+  color: black !important
+}
+
+@media(max-width:768px)
+{
+  .dropdown-menu {
+    animation: slideInRight;
+    animation-duration: 0.5s
+  }
+  .arrow-up {
+    top: 20px;
+  }
+  .navbar-toggler {
+    border-color: white !important;
+  }
+
+  .navbar-toggler-icon {
+    background: inherit !important
+  }
+
+  .navbar-toggler-icon::before {
+    font-family: "FontAwesome";
+    content: "\f0c9";
+    color: white;
+    font-size: 30px
+  }
+}
